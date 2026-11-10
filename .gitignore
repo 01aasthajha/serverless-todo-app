@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+lambda/node_modules/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# Build files and logs
+dist/
+build/
+*.zip
+*.log
